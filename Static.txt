@@ -1,0 +1,51 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+            
+        {
+            
+            Student tamerlan = new Student();
+            Console.WriteLine(tamerlan.Age); 
+
+            Student faiq = new Student();
+            Console.WriteLine(faiq.Age); 
+
+            Student tural = new Student();
+            Console.WriteLine(tural.Age); 
+
+            Student emil = new Student();
+            Console.WriteLine(emil.Age); 
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Person
+    {
+        
+        public int Student { get; set; }
+        private static int _age;
+        public Student() 
+        {
+            
+            Student = ++_age;
+
+        }
+    }
+}
+
+
